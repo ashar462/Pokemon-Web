@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .head {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(221, 221, 221);
+      margin-left: -10px;
+      margin-right: -10px;
+      margin-top: -10px;
+    }
+
+    .list {
+      display: inline-flex;
+    }
+
+    .head2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    body {
+      background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .crown {
+      margin-left: 18%;
+      margin-top: 30px;
+    }
+
+    .pikachu {
+      margin-left: 62%;
+      margin-top: -485px;
+      border-radius: 50%;
+    }
+
+    .unite {
+      margin-left: 62%;
+    }
+
+    .battle {
+      margin-left: 18%;
+      margin-top: 60px;
+    }
+
+    .paldea {
+      margin-left: 40%;
+      margin-top: -250px;
+    }
+
+    .community {
+      margin-left: 62%;
+      margin-top: -330px;
+    }
+
+    .challenge {
+      margin-left: 18%;
+      margin-top: 50px;
+      
+    }
+
+    .highlights {
+      margin-left: 40%;
+      margin-top: -380px;
+    }
+
+    .travel {
+      margin-left: 62%;
+      margin-top: -390px;
+    }
+
+    .go {
+      margin-left: 18%;
+      margin-top: 110px;
+    }
+
+    .week {
+      margin-left: 40%;
+      margin-top: -360px;
+    }
+
+    .pokedox1 {
+      margin-left: 62%;
+      margin-top: -560px;
+    }
+
+    .news1 {
+      margin-left: 62%;
+      margin-top: 10px;
+    }
+
+    .about {
+      background-color: #242323;
+      height: 300px;
+      width: 100%;
+      margin-top: 120px;
+    }
+    img{
+      border-radius: 10px;
+    }
+
+    .links {
+      color: white;
+      text-decoration: none;
+      list-style-type: none;
+      margin: 8px;
+    }
+
+    .firstlist {
+      color: white;
+      margin-left: 10%;
+
+    }
+
+    .heading {
+      padding-top: 30px;
+    }
+
+    .list2 {
+      display: inline;
+      list-style-type: none;
+    }
+
+    .icons {
+      margin-left: 40%;
+      margin-top: -17%;
+      border-left: 5px black;
+      border-right: 5px black;
+    }
+
+    .bar {
+      margin-left: 70%;
+      margin-top: 20px;
+    }
+
+    .list3 {
+      list-style-type: none;
+      color: #fff;
+      text-decoration: none;
+
+    }
+
+    .link1 {
+      margin-top: -60px;
+      margin-left: 81%;
+    }
+
+    .end,
+    .end1,
+    .end2 {
+      color: #fff;
+      margin-left: 70%;
+      margin-top: 10px;
+    }
+
+    .pikachu:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .crown:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .unite:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .battle:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .paldea:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .community:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .challenge:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .highlights:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .go:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .pokedox1:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .news1:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .travel:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+
+    .week:hover {
+      -ms-transform: scale(1.1);
+      /* IE 9 */
+      -webkit-transform: scale(1.1);
+      /* Safari 3-8 */
+      transform: scale(1.1);
+    }
+  .home2:hover {
+    content: url('./pokedexh.png');
+}
+.home3:hover {
+    content: url('./videoh.png');
+}
+.home4:hover {
+    content: url('./cardh.png');
+}
+.home5:hover {
+    content: url('./tvh.png');
+}
+.home6:hover {
+    content: url('./playh.png');
+}
+.home7:hover {
+    content: url('./newsh.png');
+}
+  </style>
+</head>
+
+<body>
+  <div class="head">
+    <div class="list"><img src="./Screenshot 2023-02-04 152438.png" alt=""></div>
+    <div class="list"><img src="./Screenshot 2023-02-04 152453.png" alt=""></div>
+    <div class="list"><img src="./Screenshot 2023-02-04 152503.png" alt=""></div>
+    <div class="list"><img src="./Screenshot 2023-02-04 152515.png" alt=""></div>
+    <div class="list"><img src="./Screenshot 2023-02-04 152524.png" alt=""></div>
+    <div class="list"><img src="./Screenshot 2023-02-04 154110.png" alt=""></div>
+  </div>
+  <div class="head2">
+    <div class="list"><img src="./home.png" alt=""></div>
+    <div class="list"><img class="home2" src="./pokedex.png" alt=""></div>
+    <div class="list"><img class="home3" src="./videogames.png" alt=""></div>
+    <div class="list"><img class="home4" src="./trading.png" alt=""></div>
+    <div class="list"><img class="home5" src="./pokemon tv.png" alt=""></div>
+    <div class="list"><img class="home6" src="./play.png" alt=""></div>
+    <div class="list"><img class="home7" src="./news.png" alt=""></div>
+  </div>
+  <div class="crown"><img src="./crown.png" alt=""></div>
+  <div class="pikachu"><img src="./pikachu.png" alt=""></div>
+  <div class="unite"><img src="./unite.png" alt=""></div>
+  <div class="battle"><img src="./battle.png" alt=""></div>
+  <div class="paldea"><img src="./paldea.png" alt=""></div>
+  <div class="community"><img src="./community.png" alt=""></div>
+  <div class="challenge"><img src="./challenge.png" alt=""></div>
+  <div class="highlights"><img src="./highlights.png" alt=""></div>
+  <div class="travel"><img src="./travel.png" alt=""></div>
+  <div class="go"><img src="./go.png" alt=""></div>
+  <div class="week"><img src="./week.png" alt=""></div>
+  <div class="pokedox1"><img src="./pokedox.png" alt=""></div>
+  <div class="news1"><img src="./news1.png" alt=""></div>
+  <div class="about">
+    <div class="firstlist">
+      <h3 class="heading">The Pokémon Company</h3>
+      <li class="links"><a class="links" href="">What's New</a></li>
+      <li class="links"><a class="links" href="">Parents Guide</a></li>
+      <li class="links"><a class="links" href="">Customer Service</a></li>
+      <li class="links"><a class="links" href="">About Our Company</a></li>
+      <li class="links"><a class="links" href="">Careers</a></li>
+      <li class="links"><a class="links" href="">Select a Country/Region</a></li>
+      <li class="links"><a class="links" href="">Press Site</a></li>
+    </div>
+    <div class="icons">
+      <li class="list2"><img class="list2" src="./faceboook.png" alt=""></li>
+      <li class="list2"><img class="list2" src="./youtube.png" alt=""></li>
+      <li class="list2"><img class="list2" src="./twitter.png" alt=""></li>
+      <li class="list2"><img class="list2" src="./instagram.png" alt=""></li>
+      <li class="list2"><img class="list2" src="./pin.png" alt=""></li>
+    </div>
+    <div>
+      <img class="bar" src="./bar.png" alt="">
+    </div>
+    <div class="link1">
+      <li class="list3"><a class="list3" href="">Terms of Use</a></li>
+      <li class="list3"><a class="list3" href="">Privacy Notice</a></li>
+      <li class="list3"><a class="list3" href="">Cookie Page</a></li>
+      <li class="list3"><a class="list3" href="">Legal Info</a></li>
+      <li class="list3"><a class="list3" href="">Security</a></li>
+    </div>
+    <div class="end">©2023 Pokémon. ©1995 - 2023</div>
+
+    <div class="end1">Nintendo/Creatures Inc./GAME FREAK inc. TM,</div>
+    <div class="end2">®Nintendo.</div>
+  </div>
+</body>
+
+</html>
